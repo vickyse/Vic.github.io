@@ -1,0 +1,181 @@
+body {
+    background-color: #DFFFDF;
+}
+
+.frame {
+    display: flex;
+}
+
+.title {
+    font-size: 48px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.title_style {
+    border: 1px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 10px;
+}
+
+.title_style:hover {
+    background-color: white;
+}
+
+.taipei_101_icon {
+    margin-top: 40px;
+    transition: all 0.5s ease-in-out;
+}
+
+.taipei_101_icon:hover {
+    background-color: white;
+}
+
+.nav {
+    font-size: 16px;
+    margin-top: 80px;
+    margin-left: 60px;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+
+.menu {
+    margin-left: 80px;
+    max-width: 200px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu:hover {
+    background-color: white;
+}
+
+.button_style {
+    padding: 3px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.hr {
+    border-width: 3px;
+    width: 95%;
+    border-color: #01814A;
+}
+
+.northern-xiao-chi_h1 {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+/* */
+
+.northern-xiao-chi_p {
+    margin-top: 60px;
+    font-size: 18px;
+}
+
+/* */
+
+.picture_size_1 {
+    width: 260px;
+    height: 240px;
+    border: solid black;
+}
+
+.picture_size_2 {
+    margin-top: 40px;
+    width: 300px;
+    height: 240px;
+    border: solid black
+}
+
+.picture_size_3 {
+    margin-top: 40px;
+    width: 340px;
+    height: 240px;
+    border: solid black
+}
+
+.article {
+    display: flex;
+    padding-left: 50px;
+}
+
+.figcaption {
+    text-align: center;
+}
+
+.h2 {
+    margin-top: 60px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_icon {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+}
+
+.icon_text {
+    color: black;
+    vertical-align: middle;
+    transition: all 0.5s ease-in-out;
+}
+
+.icon_text:hover {
+    background-color: #DFFFDF;
+}
+
+.footer_color {
+    background-color: white;
+}
+
+.text_middle {
+    text-align: center;
+}
+
+.text_decoration {
+    text-decoration: none;
+}
+
+#northern_xiao_chi_article_text {
+    max-width: 45%;
+}
+
+/* */
+
+.boat_picture {
+    width: 100px;
+    height: 100px;
+}
+
+/* */
+
+.taiwan_map {
+    margin-left: 80px;
+    width: 200px;
+    height: 340px;
+}
+
+/* */
+
+#northern_xiao_chi_figure {
+    margin-left: 100px;
+    display: flex;
+}
+
+/* */
+
+#northern_xiao_chi_map_figcaption {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* */

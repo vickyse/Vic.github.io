@@ -1,0 +1,533 @@
+body {
+    background-color: #DFFFDF;
+}
+
+.menu_for_mobile {
+    display: none;
+}
+
+.frame {
+    display: flex;
+}
+
+.title {
+    font-size: 48px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.title_style {
+    border: 1px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 10px;
+}
+
+.title_style:hover {
+    background-color: white;
+}
+
+.taipei_101_icon {
+    margin-top: 40px;
+    transition: all 0.5s ease-in-out;
+}
+
+.taipei_101_icon:hover {
+    background-color: white;
+}
+
+.show_menu {
+    display: none;
+    width: 20%;
+    height: 200px;
+}
+
+.contact_and_menu_button {
+    color: #01814A;
+    border: 2px solid black;
+}
+
+.nav {
+    font-size: 16px;
+    margin-top: 80px;
+    margin-left: 60px;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+
+.menu {
+    margin-left: 80px;
+    max-width: 200px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu:hover {
+    background-color: white;
+}
+
+.button_style {
+    padding: 3px;
+    color: black;
+    text-decoration: none;
+}
+
+.hr {
+    border-width: 3px;
+    width: 95%;
+    border-color: #01814A;
+}
+
+.h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.h2 {
+    margin-top: 60px;
+}
+
+#p {
+    margin-top: 60px;
+    font-size: 18px;
+}
+
+.picture_size_1 {
+    width: 260px;
+    height: 240px;
+    border: solid black;
+}
+
+.picture_size_2 {
+    margin-top: 40px;
+    width: 300px;
+    height: 240px;
+    border: solid black
+}
+
+.picture_size_3 {
+    margin-top: 40px;
+    width: 340px;
+    height: 240px;
+    border: solid black
+}
+
+.picture_size_4 {
+    margin-top: 40px;
+    width: 380px;
+    height: 240px;
+    border: solid black
+}
+
+.picture_size_5 {
+    margin-top: 40px;
+    width: 380px;
+    height: 300px;
+    border: solid black
+}
+
+.article {
+    display: flex;
+    padding-left: 50px;
+}
+
+.figcaption {
+    text-align: center;
+}
+
+.horizonal_space_even {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_horizonal_space_even {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_icon {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+}
+
+.icon_text {
+    color: black;
+    vertical-align: middle;
+    transition: all 0.5s ease-in-out;
+}
+
+.icon_text:hover {
+    background-color: #DFFFDF;
+}
+
+.footer_color {
+    background-color: white;
+}
+
+.text_middle {
+    text-align: center;
+}
+
+.text_decoration {
+    text-decoration: none;
+}
+
+.form-popup {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    display: none;
+    position: relative;
+    bottom: 5%;
+    border: 2px solid black;
+    background-color: #DFFFDF;
+    z-index: 9;
+}
+
+.picture_in_home_page {
+    margin-left: 50px;
+}
+
+.input_style {
+    margin-left: 20px;
+    width: 45%;
+}
+
+.input_style_2 {
+    margin-left: 44px;
+    width: 45%;
+}
+
+.form_button_style {
+    margin-top: 20px;
+}
+
+/* index's css */
+
+.northern_and_southern_and_differ-xiao-chi_h1 {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.northern_and_southern_-xiao-chi_p {
+    margin-top: 60px;
+    font-size: 18px;
+}
+
+.text_for_max_width_45 {
+    max-width: 45%;
+}
+
+.boat_and_sugar_picture {
+    width: 100px;
+    height: 100px;
+}
+
+.taiwan_map {
+    margin-left: 40px;
+    width: 200px;
+    height: 340px;
+}
+
+.northern_and_southern_xiao_chi_map_figcaption {
+    text-align: center;
+    font-size: 12px;
+}
+
+.padding_1 {
+    padding-left: 100px;
+}
+
+.padding_2 {
+    padding-left: 70px;
+}
+
+/* northern_and_southern__xiao_chi's css */
+
+.difference_text {
+    display: flex;
+}
+
+.difference_p {
+    font-size: 20px;
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.difference_p_have_padding {
+    font-size: 20px;
+    max-width: 65%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.difference_article {
+    padding-left: 50px;
+}
+
+.style_for_Bi_Hun_and_zonzi_text {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.padding {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.figure_position {
+    display: flex;
+}
+
+.picture_size_in_difference {
+    margin-top: 40px;
+    width: 320px;
+    height: 260px;
+    border: solid black
+}
+
+/* difference's css*/
+
+.margin_bottom {
+    margin-bottom: 30px;
+}
+
+/* lo-bah-png's css*/
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    .frame {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .Taiwan_Xiao_Chi_text {
+        display: none;
+    }
+
+    .title {
+        font-size: 36px;
+        margin-top: 40px;
+        margin-left: 35px;
+    }
+
+    .menu {
+        margin-left: 40px;
+        max-width: 200px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .taipei_101_size {
+        width: 100px;
+        height: 100px;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .icon_text {
+        font-size: 8px;
+        color: black;
+        vertical-align: middle;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .tablet_and_mobile_style {
+        text-align: center;
+    }
+
+    .footer_icon {
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+    }
+
+    .boat_and_sugar_picture {
+        display: none;
+    }
+
+    .taiwan_map {
+        padding-left: 120px;
+        width: 200px;
+        height: 340px;
+    }
+
+    .northern_and_southern_xiao_chi_map_figcaption {
+        padding-left: 90px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .horizonal_space_even {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    .difference_text {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .padding {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .style_for_Bi_Hun_and_zonzi_text {
+        font-size: 18px;
+        max-width: 80%;
+    }
+
+    .picture_size_in_difference {
+        margin-left: 40px;
+        margin-top: 40px;
+        width: 320px;
+        height: 260px;
+        border: solid black
+    }
+
+    .menu {
+        margin-left: 80px;
+        max-width: 200px;
+        transition: all 0.5s ease-in-out;
+        font-size: 12px;
+    }
+
+    .text_for_max_width_45 {
+        max-width: 100%;
+    }
+}
+
+/*平板電腦大小 */
+
+@media (max-width: 767px) {
+    .Taiwan_Xiao_Chi_text {
+        display: none;
+    }
+
+    .taipei_101_size {
+        align-items: center;
+        width: 140px;
+        height: 140px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tablet_and_mobile_style {
+        text-align: center;
+    }
+
+    .frame {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .taipei_101_icon {
+        transition: all 0.5s ease-in-out;
+    }
+
+    .picture_in_home_page {
+        margin-left: 0px;
+    }
+
+    .menu_for_mobile {
+        text-align: right;
+        display: block;
+        font-size: 24px;
+    }
+
+    .footer_horizonal_space_even {
+        background: #DFFFDF;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .botton_menu {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text_decoration {
+        text-decoration: none;
+        padding-bottom: 40px;
+    }
+
+    .show_menu {
+        display: none;
+        width: 80%;
+        height: 200px;
+        border: 2px solid black;
+    }
+
+    .menu_details {
+        cursor: pointer;
+        color: black;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .menu_details:hover {
+        background-color: white;
+    }
+
+    .menu_margin {
+        margin-bottom: 20px;
+    }
+
+    .boat_and_sugar_picture {
+        display: none;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .horizonal_space_even {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    .taiwan_map {
+        width: 200px;
+        height: 340px;
+    }
+
+    .difference_text {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .figure_position {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text_for_max_width_45 {
+        max-width: 100%;
+    }
+}
+
+/* 手機大小*/
